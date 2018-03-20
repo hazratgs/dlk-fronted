@@ -39,6 +39,20 @@ const common = {
         }
       },
       {
+        test: /\.(woff|ttf)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'font/[name].[ext]'
+        }
+      },
+      {
+        test: /\.(mp4|webm|ogv)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'video/[name].[ext]'
+        }
+      },
+      {
         test: /\.svg$/,
         use: [
           'babel-loader',
