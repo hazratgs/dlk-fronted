@@ -6,6 +6,8 @@ import { store } from './store/configureStore'
 
 import 'whatwg-fetch'
 import 'normalize.css'
+import './public/font/zyalva-regular.woff'
+import './public/font/zyalva-regular.ttf'
 
 import App from './containers/App'
 

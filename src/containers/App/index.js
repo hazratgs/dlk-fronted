@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import { withRouter } from 'react-router-dom'
 import s from './style.pcss'
 
-import Header from '../../components/Header'
+import Header from '../Header'
 
 @withRouter
 export default class App extends PureComponent {
