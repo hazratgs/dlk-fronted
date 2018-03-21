@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:300,400,500,600,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,900');
+
+@font-face {
+    font-family: 'zyalva';
+    src: local('\432\428\407'), url(/font/zyalva-regular.woff) format('woff'), url(/font/zyalva-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zyalva';
+    src: local('\432\428\407'), url(/font/zyalva-regular.woff) format('woff'), url(/font/zyalva-regular.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
     --width: 870px;
 
     /* fonts */
     --title: 'PT Serif', 'Georgia';
-    --text: 'Roboto', 'Arial';
+    --head: 'zyalva';
+    --text: 'PT Sans Narrow', 'Arial';
 
     /* colors */
     --border: #f5f5f5;
