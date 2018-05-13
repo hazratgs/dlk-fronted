@@ -1,7 +1,8 @@
 @import "../../public/css/variables.pcss";
 
 .slide {
-  height: 740px;
+  min-height: 740px;
+  height: 100vh;
   background-color: #eee;
   background-image: url('/img/bg.jpg');
   background-position: center top;
@@ -45,6 +46,8 @@
     z-index: 10;
     position: relative;
     height: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
 
     .wrapper {
       color: #fff;
