@@ -2,12 +2,6 @@ import React, { PureComponent } from 'react'
 import CSSModules from 'react-css-modules'
 import s from './style.pcss'
 
-import '../../public/img/bg.jpg'
-import '../../public/video/bg.mp4'
-import '../../public/video/bg-machining.webm'
-import '../../public/video/bg-machining.mp4'
-import '../../public/video/bg-machining.ogv'
-
 @CSSModules(s)
 export default class HomeSlide extends PureComponent {
   render () {
