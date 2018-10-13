@@ -8,8 +8,8 @@ export default class HomeSlide extends PureComponent {
     return (
       <div styleName='slide'>
         <div styleName='bg'>
-          <video autoPlay={true} loop={true}>
-            <source src='/video/bg.mp4' type='video/mp4'/>
+          <video autoPlay loop playsInline preload='preload'>
+            <source src='/video/bg.mp4'/>
           </video>
         </div>
         <div styleName='content'>
