@@ -3,6 +3,9 @@ import MainBrand from '../../components/MainBrand'
 import HomeAdvantages from '../../components/HomeAdvantages'
 import ProductTypes from '../../components/ProductTypes'
 import ApplicationForCalculation from '../../components/ApplicationForCalculation'
+import CompanyNumber from '../../components/CompanyNumber'
+import MainPageScreenCompany from '../../components/MainPageScreenCompany'
+import AdvantageScreen from '../../components/AdvantageScreen'
 
 export default class Home extends PureComponent {
   render () {
@@ -11,7 +14,10 @@ export default class Home extends PureComponent {
         <HomeAdvantages/>
         <ProductTypes/>
         <ApplicationForCalculation/>
+        <CompanyNumber/>
         <MainBrand/>
+        <MainPageScreenCompany/>
+        <AdvantageScreen/>
       </div>
     )
   }
