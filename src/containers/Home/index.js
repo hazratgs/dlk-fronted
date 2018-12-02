@@ -6,6 +6,11 @@ import ApplicationForCalculation from '../../components/ApplicationForCalculatio
 import CompanyNumber from '../../components/CompanyNumber'
 import MainPageScreenCompany from '../../components/MainPageScreenCompany'
 import AdvantageScreen from '../../components/AdvantageScreen'
+import HomeCompanyFace from '../../components/HomeCompanyFace'
+import HomeRegions from '../../components/HomeRegions'
+import Clietns from '../../components/HomeClients'
+import SubscribeHome from '../../components/SubscribeHome'
+import Objects from '../../components/Objects'
 
 export default class Home extends PureComponent {
   render () {
@@ -17,7 +22,12 @@ export default class Home extends PureComponent {
         <CompanyNumber/>
         <MainBrand/>
         <MainPageScreenCompany/>
+        <Objects/>
+        <HomeCompanyFace/>
         <AdvantageScreen/>
+        <HomeRegions/>
+        <Clietns/>
+        <SubscribeHome/>
       </div>
     )
   }

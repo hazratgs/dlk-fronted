@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom'
 import s from './style.pcss'
 
 import Header from '../Header'
+import Footer from '../Footer'
 import Home from '../Home'
 
 @withRouter
@@ -13,6 +14,7 @@ export default class App extends PureComponent {
         <div className={s.content}>
           <Header/>
           <Home />
+          <Footer/>
         </div>
       </div>
     )
